@@ -206,9 +206,9 @@ var mood = [
 function generateScenario(arc,terrain,object,mood)
 {
     var outcome = "A scenario  with the arc:" + arc[Math.floor(Math.random() * arc.length)];
-    outcome += "<br> the terrain: " + terrain[Math.floor(Math.random() * terrain.length)];
-    outcome += "<br> the object:" + object[Math.floor(Math.random() * object.length)];
-    outcome += "<br> and the mood:" + mood[Math.floor(Math.random() * mood.length)] + ".";
+    outcome += "\n the terrain: " + terrain[Math.floor(Math.random() * terrain.length)];
+    outcome += "\n the object:" + object[Math.floor(Math.random() * object.length)];
+    outcome += "\n and the mood:" + mood[Math.floor(Math.random() * mood.length)] + ".";
     return outcome;
 }
 
