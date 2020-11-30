@@ -205,10 +205,10 @@ var mood = [
 // TODO Fix newline characters here!
 function generateScenario(arc,terrain,object,mood)
 {
-    var outcome = "A scenario  with the arc:" + arc[Math.floor(Math.random() * arc.length)];
+    var outcome = "A scenario  with the arc: " + arc[Math.floor(Math.random() * arc.length)];
     outcome += "\n the terrain: " + terrain[Math.floor(Math.random() * terrain.length)];
-    outcome += "\n the object:" + object[Math.floor(Math.random() * object.length)];
-    outcome += "\n and the mood:" + mood[Math.floor(Math.random() * mood.length)] + ".";
+    outcome += "\n the object: " + object[Math.floor(Math.random() * object.length)];
+    outcome += "\n and the mood: " + mood[Math.floor(Math.random() * mood.length)] + ".";
     return outcome;
 }
 
